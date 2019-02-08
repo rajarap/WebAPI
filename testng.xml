@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Functional Test">
+
+  <listeners>
+  	<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  
+  <test name="Get List of Users">
+    <classes>
+      <class name="com.http.TestNGTests.TC_01_GetListOfUsers"/>
+    </classes>
+  </test> <!-- Functional Test -->
+  
+  <test name="Get Weather By City Name">
+    <classes>
+      <class name="com.http.TestNGTests.TC_02_GetCityWeatherWithParams"/>
+    </classes>
+  </test> <!-- Functional Test -->
+  
+  <test name="Post Create a New User">
+    <classes>
+      <class name="com.http.TestNGTests.TC_03_PostCreateUser"/>
+    </classes>
+  </test> <!-- Functional Test -->
+  
+  <test name="Post Register User Success">
+    <classes>
+      <class name="com.http.TestNGTests.TC_04_PostRegisterUserSuccess"/>
+    </classes>
+  </test> <!-- Functional Test -->
+  
+</suite> <!-- API Functional Test -->

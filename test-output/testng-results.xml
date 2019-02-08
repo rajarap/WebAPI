@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="API Functional Test" duration-ms="3016" started-at="2019-02-07T21:12:57Z" finished-at="2019-02-07T21:13:00Z">
+    <groups>
+    </groups>
+    <test name="Get List of Users" duration-ms="1823" started-at="2019-02-07T21:12:57Z" finished-at="2019-02-07T21:12:58Z">
+      <class name="com.http.TestNGTests.TC_01_GetListOfUsers">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.http.TestNGTests.TC_01_GetListOfUsers@7791a895]" name="setUp" is-config="true" duration-ms="15" started-at="2019-02-07T21:12:57Z" finished-at="2019-02-07T21:12:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getListOfUsers()[pri:0, instance:com.http.TestNGTests.TC_01_GetListOfUsers@7791a895]" name="getListOfUsers" duration-ms="1776" started-at="2019-02-07T21:12:57Z" finished-at="2019-02-07T21:12:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListOfUsers -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.http.TestNGTests.TC_01_GetListOfUsers@7791a895]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-02-07T21:12:58Z" finished-at="2019-02-07T21:12:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.http.TestNGTests.TC_01_GetListOfUsers -->
+    </test> <!-- Get List of Users -->
+    <test name="Get Weather By City Name" duration-ms="128" started-at="2019-02-07T21:12:59Z" finished-at="2019-02-07T21:12:59Z">
+      <class name="com.http.TestNGTests.TC_02_GetCityWeatherWithParams">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.http.TestNGTests.TC_02_GetCityWeatherWithParams@22a67b4]" name="setUp" is-config="true" duration-ms="1" started-at="2019-02-07T21:12:59Z" finished-at="2019-02-07T21:12:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="getCityWeatherWithParams()[pri:0, instance:com.http.TestNGTests.TC_02_GetCityWeatherWithParams@22a67b4]" name="getCityWeatherWithParams" duration-ms="119" started-at="2019-02-07T21:12:59Z" finished-at="2019-02-07T21:12:59Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [800] but found [802]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [800] but found [802]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at com.http.TestNGTests.TC_02_GetCityWeatherWithParams.getCityWeatherWithParams(TC_02_GetCityWeatherWithParams.java:80)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCityWeatherWithParams -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.http.TestNGTests.TC_02_GetCityWeatherWithParams@22a67b4]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-02-07T21:12:59Z" finished-at="2019-02-07T21:12:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.http.TestNGTests.TC_02_GetCityWeatherWithParams -->
+    </test> <!-- Get Weather By City Name -->
+    <test name="Post Create a New User" duration-ms="618" started-at="2019-02-07T21:12:59Z" finished-at="2019-02-07T21:12:59Z">
+      <class name="com.http.TestNGTests.TC_03_PostCreateUser">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.http.TestNGTests.TC_03_PostCreateUser@5a8806ef]" name="setUp" is-config="true" duration-ms="1" started-at="2019-02-07T21:12:59Z" finished-at="2019-02-07T21:12:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewUser()[pri:0, instance:com.http.TestNGTests.TC_03_PostCreateUser@5a8806ef]" name="createNewUser" duration-ms="613" started-at="2019-02-07T21:12:59Z" finished-at="2019-02-07T21:12:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.http.TestNGTests.TC_03_PostCreateUser@5a8806ef]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-02-07T21:12:59Z" finished-at="2019-02-07T21:12:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.http.TestNGTests.TC_03_PostCreateUser -->
+    </test> <!-- Post Create a New User -->
+    <test name="Post Register User Success" duration-ms="374" started-at="2019-02-07T21:12:59Z" finished-at="2019-02-07T21:13:00Z">
+      <class name="com.http.TestNGTests.TC_04_PostRegisterUserSuccess">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.http.TestNGTests.TC_04_PostRegisterUserSuccess@1e6d1014]" name="setUp" is-config="true" duration-ms="1" started-at="2019-02-07T21:12:59Z" finished-at="2019-02-07T21:12:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewUser()[pri:0, instance:com.http.TestNGTests.TC_04_PostRegisterUserSuccess@1e6d1014]" name="createNewUser" duration-ms="367" started-at="2019-02-07T21:12:59Z" finished-at="2019-02-07T21:13:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.http.TestNGTests.TC_04_PostRegisterUserSuccess@1e6d1014]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-02-07T21:13:00Z" finished-at="2019-02-07T21:13:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.http.TestNGTests.TC_04_PostRegisterUserSuccess -->
+    </test> <!-- Post Register User Success -->
+  </suite> <!-- API Functional Test -->
+</testng-results>

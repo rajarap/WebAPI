@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="API Functional Test" duration-ms="2212" started-at="2019-02-05T20:11:12Z" finished-at="2019-02-05T20:11:15Z">
+    <groups>
+    </groups>
+    <test name="Functional Test" duration-ms="2212" started-at="2019-02-05T20:11:12Z" finished-at="2019-02-05T20:11:15Z">
+      <class name="com.http.TestNGTests.TC_01_GetListOfUsers">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.http.TestNGTests.TC_01_GetListOfUsers@3796751b]" name="setUp" is-config="true" duration-ms="20" started-at="2019-02-05T20:11:12Z" finished-at="2019-02-05T20:11:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getListOfUsers()[pri:0, instance:com.http.TestNGTests.TC_01_GetListOfUsers@3796751b]" name="getListOfUsers" duration-ms="2158" started-at="2019-02-05T20:11:12Z" finished-at="2019-02-05T20:11:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListOfUsers -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.http.TestNGTests.TC_01_GetListOfUsers@3796751b]" name="tearDown" is-config="true" duration-ms="2" started-at="2019-02-05T20:11:15Z" finished-at="2019-02-05T20:11:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.http.TestNGTests.TC_01_GetListOfUsers -->
+    </test> <!-- Functional Test -->
+  </suite> <!-- API Functional Test -->
+</testng-results>

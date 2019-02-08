@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [API Functional Test]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Get Weather By City Name(failed)">
+    <classes>
+      <class name="com.http.TestNGTests.TC_02_GetCityWeatherWithParams">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="getCityWeatherWithParams"/>
+        </methods>
+      </class> <!-- com.http.TestNGTests.TC_02_GetCityWeatherWithParams -->
+    </classes>
+  </test> <!-- Get Weather By City Name(failed) -->
+</suite> <!-- Failed suite [API Functional Test] -->

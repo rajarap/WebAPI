@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [API Functional Test]">
+  <test thread-count="5" verbose="0" name="Functional Test(failed)">
+    <classes>
+      <class name="com.http.TestNGTests.TC_01_GetListOfUsers">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getListOfUsers"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.http.TestNGTests.TC_01_GetListOfUsers -->
+    </classes>
+  </test> <!-- Functional Test(failed) -->
+</suite> <!-- Failed suite [API Functional Test] -->
